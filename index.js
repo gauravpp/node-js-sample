@@ -20,7 +20,7 @@ var adresses = Object.keys(ifaces).reduce(function (result, dev) {
 
 // Print the result
 console.log(adresses);
-  response.send(adresses);
+  response.send(adresses + '....Thanos winning in avenger...');
 })
 
 
